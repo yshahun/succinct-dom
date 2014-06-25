@@ -10,6 +10,7 @@ The library requires:
 
  - Java 1.7 and higher
  - [succinct-util](https://github.com/yshahun/succinct-util) library whose succinct data structures are used to represent the succinct DOM
+
 Documentation
 -------------
 API documentation is available [here](http://yshahun.github.io/succinct-dom/apidocs/index.html).
@@ -17,13 +18,13 @@ Installation
 ------------
 Download and build the succinct-util:
 
-`git clone https://github.com/yshahun/succinct-util.git`
-`mvn clean install`
+`git clone https://github.com/yshahun/succinct-util.git
+mvn clean install`
 
 Download and build the succinct-dom:
 
-`git clone https://github.com/yshahun/succinct-dom.git`
-`mvn clean install`
+`git clone https://github.com/yshahun/succinct-dom.git
+mvn clean install`
 Getting Started
 ---------------
 Get an instance of the succinct DocumentBuilderFactory:
