@@ -18,17 +18,29 @@ Installation
 ------------
 Download and build the succinct-util:
 
-`git clone https://github.com/yshahun/succinct-util.git
-mvn clean install`
+```
+git clone https://github.com/yshahun/succinct-util.git
+mvn clean install
+```
 
 Download and build the succinct-dom:
 
-`git clone https://github.com/yshahun/succinct-dom.git
-mvn clean install`
+```
+git clone https://github.com/yshahun/succinct-dom.git
+mvn clean install
+```
 Getting Started
 ---------------
 Get an instance of the succinct DocumentBuilderFactory:
 ```java
+import org.w3c.dom.Document;
+
+import ys.succinct.xml.parser.SuccinctDocumentBuilderFactory;
+
+import javax.xml.parsers.DocumentBuilderFactory;
+
+...
+
 DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance(
     SuccinctDocumentBuilderFactory.class.getName(), YourClass.class.getClassLoader());
 ```
