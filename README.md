@@ -54,5 +54,5 @@ License
 Licensed under the Apache License 2.0.
 References
 ----------
-- Delpratt, O'Neil. Space efficient in-memory representation of XML documents, University of Leicester, 2008.
-- Delpratt, O., Raman, R., Rahman, N. Engineering Succinct DOM, University of Leicester, 2008.
+- O. Delpratt. Space efficient in-memory representation of XML documents. University of Leicester, 2008.
+- O. Delpratt, R. Raman, N. Rahman. Engineering Succinct DOM. University of Leicester, 2008.
